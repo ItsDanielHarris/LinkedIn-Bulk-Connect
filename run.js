@@ -1,11 +1,16 @@
 function loop_clicks() {
 	count = $('button.search-result__actions--primary').not('button.message-anywhere-button').length;
-	$('button.search-result__actions--primary').not('button.message-anywhere-button').each( function() {
-		click_connect($(this));
-		if (!--count) {
-			next();
-		}
-	});
+	if (count === 0) {
+		next();
+	}
+	else {
+		$('button.search-result__actions--primary').not('button.message-anywhere-button').each( function() {
+			click_connect($(this));
+			if (!--count) {
+				next();
+			}
+		});
+	}
 }
 
 
