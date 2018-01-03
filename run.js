@@ -29,7 +29,7 @@ var delay = ( function() {
 
 function next() {
 	$('button.next').click();
-	delay(function(){ loop_clicks(); }, 3500);
+	delay(function(){ loop_clicks(); }, 1500);
 }
 
 loop_clicks();
