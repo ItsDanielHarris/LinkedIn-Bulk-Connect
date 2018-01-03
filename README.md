@@ -1,1 +1,1 @@
-This script will allow you to automate send connection invites in LinkedIn search results. Just copy the contents from run.js in the browser console window after searching and filtering your results.
+This script automates the process of sending connection invites in LinkedIn search results. Just copy the contents from run.js and paste it in the browser console window after searching and filtering your results.
